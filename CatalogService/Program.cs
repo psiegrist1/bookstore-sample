@@ -10,4 +10,5 @@ app.MapGet("/books", () => new[]
     new { Id = 3, Title = "Domain-Driven Design", Author = "Eric Evans" }
 });
 
+
 app.Run();
