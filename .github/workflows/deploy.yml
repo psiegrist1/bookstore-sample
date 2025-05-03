@@ -29,7 +29,7 @@ jobs:
         with:
           login-server: bookstoreacr.azurecr.io
           username: ${{ secrets.ACR_USERNAME }}
-          password: ${{ secrets.ACR_PASSWORD }}!
+          password: ${{ secrets.ACR_PASSWORD }}
 
       # Runs a set of commands using the runners shell
       - name: Build and push
